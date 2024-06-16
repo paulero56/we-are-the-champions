@@ -1,0 +1,122 @@
+/* General styles */
+html, body {
+    margin: auto;
+    padding: 0;
+    background-color: #1B1924;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    max-width: 320px;
+}
+
+/* Focus styles */
+textarea, input:focus {
+    outline: none;
+}
+
+/* Header image styles */
+#header-img {
+    width: 90px;
+    margin-top: 30px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 25px;
+    margin: 8px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 8px;
+}
+
+/* Button styles */
+#publish-btn {
+    width: 317px;
+    height: 61px;
+    background-color: #28A9F1;
+    color: #04131C;
+    font-size: 22px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+
+#publish-btn:hover {
+    background-color: #67C0F2;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1.0;
+    gap: 10px;
+}
+
+/* Endorsement input styles */
+#endorsement-input {
+    width: 317px;
+    height: 118px;
+    vertical-align: text-top;
+    resize: none;
+}
+
+/* Input styles */
+.input {
+    border: none;
+    border-radius: 8px;
+    background-color: #444059;
+    color: #8F8F8F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+/* To/from fields container styles */
+.to-from-fields {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+
+/* From field styles */
+#from-field {
+    min-width: 0;
+    width: auto;
+}
+
+/* To field styles */
+#to-field {
+    min-width: 0;
+    width: auto;
+}
+
+/* Endorsements list styles */
+#endorsements {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 317px;
+}
+
+/* Article styles */
+article {
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #1B1924;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+/* Header and footer styles within articles */
+header, footer {
+    font-weight: 700;
+}
